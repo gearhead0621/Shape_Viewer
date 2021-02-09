@@ -1,0 +1,2 @@
+E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csprojAssemblyReference.cache
+E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
