@@ -26,5 +26,37 @@ namespace ShapeUI
         {
 
         }
+
+        private void removeSelectedButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void choicesDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // May not be applicable for what I'm doing...
+        /// <summary>
+        /// Used to validate the entries that the user submits into the form.
+        /// </summary>
+        /// <returns></returns>
+        private bool ValidateForm()
+        {
+            bool output = true;
+
+            return output;
+        }
     }
 }

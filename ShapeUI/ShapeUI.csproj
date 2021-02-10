@@ -52,19 +52,10 @@
     <Compile Include="ShapeSelectorForm.Designer.cs">
       <DependentUpon>ShapeSelectorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ShapeViewerForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ShapeViewerForm.Designer.cs">
-      <DependentUpon>ShapeViewerForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ShapeSelectorForm.resx">
       <DependentUpon>ShapeSelectorForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ShapeViewerForm.resx">
-      <DependentUpon>ShapeViewerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShapeViewerLibrary\ShapeViewerLibrary.csproj">
+      <Project>{3df983c8-9df1-45e9-9ee9-d3ca36b54a5c}</Project>
+      <Name>ShapeViewerLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

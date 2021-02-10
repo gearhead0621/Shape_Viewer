@@ -1,2 +1,8 @@
 E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csprojAssemblyReference.cache
 E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\bin\Debug\ShapeViewerLibrary.dll
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\bin\Debug\ShapeViewerLibrary.pdb
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csprojAssemblyReference.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.dll
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.pdb
