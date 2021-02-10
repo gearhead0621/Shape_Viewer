@@ -1,0 +1,253 @@
+﻿
+namespace ShapeUI
+{
+    partial class ShapeSelectorForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.shapeLabel = new System.Windows.Forms.Label();
+            this.shapeDropdownBox = new System.Windows.Forms.ComboBox();
+            this.choicesLabel = new System.Windows.Forms.Label();
+            this.choicesDropdownBox = new System.Windows.Forms.ComboBox();
+            this.shapeListBox = new System.Windows.Forms.ListBox();
+            this.totalShapeAreaLabel = new System.Windows.Forms.Label();
+            this.totalShapePerimeterLabel = new System.Windows.Forms.Label();
+            this.removeSelectedButton = new System.Windows.Forms.Button();
+            this.shapeDisplayBox = new System.Windows.Forms.PictureBox();
+            this.currentShapeAreaLabel = new System.Windows.Forms.Label();
+            this.currentShapePerimeterLabel = new System.Windows.Forms.Label();
+            this.currentShapeAreaValue = new System.Windows.Forms.Label();
+            this.currentShapePerimeterValue = new System.Windows.Forms.Label();
+            this.totalShapeAreaValue = new System.Windows.Forms.Label();
+            this.totalShapePerimeterValue = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.shapeDisplayBox)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // shapeLabel
+            // 
+            this.shapeLabel.AutoSize = true;
+            this.shapeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shapeLabel.Location = new System.Drawing.Point(62, 62);
+            this.shapeLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.shapeLabel.Name = "shapeLabel";
+            this.shapeLabel.Size = new System.Drawing.Size(70, 24);
+            this.shapeLabel.TabIndex = 0;
+            this.shapeLabel.Text = "Shape:";
+            // 
+            // shapeDropdownBox
+            // 
+            this.shapeDropdownBox.FormattingEnabled = true;
+            this.shapeDropdownBox.Location = new System.Drawing.Point(180, 59);
+            this.shapeDropdownBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.shapeDropdownBox.Name = "shapeDropdownBox";
+            this.shapeDropdownBox.Size = new System.Drawing.Size(219, 32);
+            this.shapeDropdownBox.TabIndex = 1;
+            // 
+            // choicesLabel
+            // 
+            this.choicesLabel.AutoSize = true;
+            this.choicesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.choicesLabel.Location = new System.Drawing.Point(61, 140);
+            this.choicesLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.choicesLabel.Name = "choicesLabel";
+            this.choicesLabel.Size = new System.Drawing.Size(96, 25);
+            this.choicesLabel.TabIndex = 2;
+            this.choicesLabel.Text = "Choices:";
+            // 
+            // choicesDropdownBox
+            // 
+            this.choicesDropdownBox.FormattingEnabled = true;
+            this.choicesDropdownBox.Location = new System.Drawing.Point(180, 138);
+            this.choicesDropdownBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.choicesDropdownBox.Name = "choicesDropdownBox";
+            this.choicesDropdownBox.Size = new System.Drawing.Size(219, 32);
+            this.choicesDropdownBox.TabIndex = 3;
+            // 
+            // shapeListBox
+            // 
+            this.shapeListBox.FormattingEnabled = true;
+            this.shapeListBox.ItemHeight = 24;
+            this.shapeListBox.Location = new System.Drawing.Point(66, 236);
+            this.shapeListBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.shapeListBox.Name = "shapeListBox";
+            this.shapeListBox.Size = new System.Drawing.Size(417, 196);
+            this.shapeListBox.TabIndex = 4;
+            // 
+            // totalShapeAreaLabel
+            // 
+            this.totalShapeAreaLabel.AutoSize = true;
+            this.totalShapeAreaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalShapeAreaLabel.Location = new System.Drawing.Point(61, 474);
+            this.totalShapeAreaLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.totalShapeAreaLabel.Name = "totalShapeAreaLabel";
+            this.totalShapeAreaLabel.Size = new System.Drawing.Size(185, 25);
+            this.totalShapeAreaLabel.TabIndex = 5;
+            this.totalShapeAreaLabel.Text = "Total Shape Area:";
+            this.totalShapeAreaLabel.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // totalShapePerimeterLabel
+            // 
+            this.totalShapePerimeterLabel.AutoSize = true;
+            this.totalShapePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalShapePerimeterLabel.Location = new System.Drawing.Point(61, 524);
+            this.totalShapePerimeterLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.totalShapePerimeterLabel.Name = "totalShapePerimeterLabel";
+            this.totalShapePerimeterLabel.Size = new System.Drawing.Size(232, 25);
+            this.totalShapePerimeterLabel.TabIndex = 6;
+            this.totalShapePerimeterLabel.Text = "Total Shape Perimeter:";
+            this.totalShapePerimeterLabel.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // removeSelectedButton
+            // 
+            this.removeSelectedButton.Location = new System.Drawing.Point(518, 278);
+            this.removeSelectedButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.removeSelectedButton.Name = "removeSelectedButton";
+            this.removeSelectedButton.Size = new System.Drawing.Size(138, 96);
+            this.removeSelectedButton.TabIndex = 7;
+            this.removeSelectedButton.Text = "Remove Selected";
+            this.removeSelectedButton.UseVisualStyleBackColor = true;
+            // 
+            // shapeDisplayBox
+            // 
+            this.shapeDisplayBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.shapeDisplayBox.Location = new System.Drawing.Point(719, 33);
+            this.shapeDisplayBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.shapeDisplayBox.Name = "shapeDisplayBox";
+            this.shapeDisplayBox.Size = new System.Drawing.Size(493, 276);
+            this.shapeDisplayBox.TabIndex = 8;
+            this.shapeDisplayBox.TabStop = false;
+            // 
+            // currentShapeAreaLabel
+            // 
+            this.currentShapeAreaLabel.AutoSize = true;
+            this.currentShapeAreaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentShapeAreaLabel.Location = new System.Drawing.Point(714, 334);
+            this.currentShapeAreaLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.currentShapeAreaLabel.Name = "currentShapeAreaLabel";
+            this.currentShapeAreaLabel.Size = new System.Drawing.Size(208, 25);
+            this.currentShapeAreaLabel.TabIndex = 9;
+            this.currentShapeAreaLabel.Text = "Current Shape Area:";
+            // 
+            // currentShapePerimeterLabel
+            // 
+            this.currentShapePerimeterLabel.AutoSize = true;
+            this.currentShapePerimeterLabel.Location = new System.Drawing.Point(715, 392);
+            this.currentShapePerimeterLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.currentShapePerimeterLabel.Name = "currentShapePerimeterLabel";
+            this.currentShapePerimeterLabel.Size = new System.Drawing.Size(223, 24);
+            this.currentShapePerimeterLabel.TabIndex = 10;
+            this.currentShapePerimeterLabel.Text = "Current Shape Perimeter:";
+            // 
+            // currentShapeAreaValue
+            // 
+            this.currentShapeAreaValue.AutoSize = true;
+            this.currentShapeAreaValue.Location = new System.Drawing.Point(952, 335);
+            this.currentShapeAreaValue.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.currentShapeAreaValue.Name = "currentShapeAreaValue";
+            this.currentShapeAreaValue.Size = new System.Drawing.Size(190, 24);
+            this.currentShapeAreaValue.TabIndex = 11;
+            this.currentShapeAreaValue.Text = "<current shape area>";
+            // 
+            // currentShapePerimeterValue
+            // 
+            this.currentShapePerimeterValue.AutoSize = true;
+            this.currentShapePerimeterValue.Location = new System.Drawing.Point(952, 392);
+            this.currentShapePerimeterValue.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.currentShapePerimeterValue.Name = "currentShapePerimeterValue";
+            this.currentShapePerimeterValue.Size = new System.Drawing.Size(233, 24);
+            this.currentShapePerimeterValue.TabIndex = 12;
+            this.currentShapePerimeterValue.Text = "<current shape perimeter>";
+            // 
+            // totalShapeAreaValue
+            // 
+            this.totalShapeAreaValue.AutoSize = true;
+            this.totalShapeAreaValue.Location = new System.Drawing.Point(318, 475);
+            this.totalShapeAreaValue.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.totalShapeAreaValue.Name = "totalShapeAreaValue";
+            this.totalShapeAreaValue.Size = new System.Drawing.Size(164, 24);
+            this.totalShapeAreaValue.TabIndex = 13;
+            this.totalShapeAreaValue.Text = "<total shape area>";
+            // 
+            // totalShapePerimeterValue
+            // 
+            this.totalShapePerimeterValue.AutoSize = true;
+            this.totalShapePerimeterValue.Location = new System.Drawing.Point(318, 525);
+            this.totalShapePerimeterValue.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.totalShapePerimeterValue.Name = "totalShapePerimeterValue";
+            this.totalShapePerimeterValue.Size = new System.Drawing.Size(207, 24);
+            this.totalShapePerimeterValue.TabIndex = 14;
+            this.totalShapePerimeterValue.Text = "<total shape perimeter>";
+            // 
+            // ShapeSelectorForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1263, 623);
+            this.Controls.Add(this.totalShapePerimeterValue);
+            this.Controls.Add(this.totalShapeAreaValue);
+            this.Controls.Add(this.currentShapePerimeterValue);
+            this.Controls.Add(this.currentShapeAreaValue);
+            this.Controls.Add(this.currentShapePerimeterLabel);
+            this.Controls.Add(this.currentShapeAreaLabel);
+            this.Controls.Add(this.shapeDisplayBox);
+            this.Controls.Add(this.removeSelectedButton);
+            this.Controls.Add(this.totalShapePerimeterLabel);
+            this.Controls.Add(this.totalShapeAreaLabel);
+            this.Controls.Add(this.shapeListBox);
+            this.Controls.Add(this.choicesDropdownBox);
+            this.Controls.Add(this.choicesLabel);
+            this.Controls.Add(this.shapeDropdownBox);
+            this.Controls.Add(this.shapeLabel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "ShapeSelectorForm";
+            this.Text = "Shape Selector";
+            ((System.ComponentModel.ISupportInitialize)(this.shapeDisplayBox)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label shapeLabel;
+        private System.Windows.Forms.ComboBox shapeDropdownBox;
+        private System.Windows.Forms.Label choicesLabel;
+        private System.Windows.Forms.ComboBox choicesDropdownBox;
+        private System.Windows.Forms.ListBox shapeListBox;
+        private System.Windows.Forms.Label totalShapeAreaLabel;
+        private System.Windows.Forms.Label totalShapePerimeterLabel;
+        private System.Windows.Forms.Button removeSelectedButton;
+        private System.Windows.Forms.PictureBox shapeDisplayBox;
+        private System.Windows.Forms.Label currentShapeAreaLabel;
+        private System.Windows.Forms.Label currentShapePerimeterLabel;
+        private System.Windows.Forms.Label currentShapeAreaValue;
+        private System.Windows.Forms.Label currentShapePerimeterValue;
+        private System.Windows.Forms.Label totalShapeAreaValue;
+        private System.Windows.Forms.Label totalShapePerimeterValue;
+    }
+}

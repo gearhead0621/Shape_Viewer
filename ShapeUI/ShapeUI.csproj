@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShapeSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShapeSelectorForm.Designer.cs">
+      <DependentUpon>ShapeSelectorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShapeViewerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ShapeSelectorForm.resx">
+      <DependentUpon>ShapeSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShapeViewerForm.resx">
       <DependentUpon>ShapeViewerForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -8,3 +8,14 @@ E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeUI\bin\Debug\ShapeUI
 E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeUI\bin\Debug\ShapeUI.pdb
 E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeUI\obj\Debug\ShapeUI.exe
 E:\Machine Vision Developer Project\ShapeViewerLibrary\ShapeUI\obj\Debug\ShapeUI.pdb
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe.config
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.pdb
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csprojAssemblyReference.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.Form1.resources
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.Properties.Resources.resources
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.GenerateResource.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CoreCompileInputs.cache
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.exe
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.pdb
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.ShapeSelectorForm.resources

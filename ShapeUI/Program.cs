@@ -16,11 +16,7 @@ namespace ShapeUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShapeViewerForm());
+            Application.Run(new ShapeSelectorForm());
         }
-    }
-
-    internal class ShapeViewerForm : Form
-    {
     }
 }
