@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShapeViewerLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace ShapeUI
         public ShapeSelectorForm()
         {
             InitializeComponent();
+        }
+
+        private void ShapeSelectorForm_Load(object sender, EventArgs e)
+        {
+            shapeDropdownBox.Items.Add("Square");
+            shapeDropdownBox.Items.Add("Ellipse");
+            shapeDropdownBox.Items.Add("Circle");
+            shapeDropdownBox.Items.Add("Equilateral Triangle");
+            shapeDropdownBox.Items.Add("Polygon");
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -44,7 +55,12 @@ namespace ShapeUI
 
         private void saveButton_Click(object sender, EventArgs e)
         {
+            if (ValidateForm())
+            {
+                ShapeModel model = new ShapeModel();
 
+                //GlobalConfig.Connection.CreateShape(model);
+            }
         }
 
         // May not be applicable for what I'm doing...
@@ -57,6 +73,11 @@ namespace ShapeUI
             bool output = true;
 
             return output;
+        }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

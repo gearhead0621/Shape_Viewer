@@ -22,8 +22,8 @@ namespace ShapeViewerLibrary
             if (textFiles)
             {
                 // TODO - Create the Text Connection
-                TextConnection text = new TextConnection();
-                Connections.Add(text);
+                //TextConnector text = new TextConnector();
+                //Connections.Add(text);
             }
         }
     }

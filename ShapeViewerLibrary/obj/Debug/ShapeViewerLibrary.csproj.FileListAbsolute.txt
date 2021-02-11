@@ -6,3 +6,9 @@ C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Deb
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.dll
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.pdb
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\bin\Debug\ShapeViewerLibrary.dll
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\bin\Debug\ShapeViewerLibrary.pdb
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csprojAssemblyReference.cache
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.dll
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.pdb

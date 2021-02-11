@@ -21,3 +21,16 @@ C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.dll
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.pdb
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CopyComplete
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe.config
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.pdb
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.dll
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.pdb
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csprojAssemblyReference.cache
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.ShapeSelectorForm.resources
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.Properties.Resources.resources
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.GenerateResource.cache
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CoreCompileInputs.cache
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CopyComplete
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.exe
+C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.pdb

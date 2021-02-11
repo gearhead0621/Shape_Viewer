@@ -31,8 +31,7 @@ namespace ShapeUI
         {
             this.shapeLabel = new System.Windows.Forms.Label();
             this.shapeDropdownBox = new System.Windows.Forms.ComboBox();
-            this.optionsLabel = new System.Windows.Forms.Label();
-            this.choicesDropdownBox = new System.Windows.Forms.ComboBox();
+            this.choicesLabel = new System.Windows.Forms.Label();
             this.shapeListBox = new System.Windows.Forms.ListBox();
             this.totalShapeAreaLabel = new System.Windows.Forms.Label();
             this.totalShapePerimeterLabel = new System.Windows.Forms.Label();
@@ -47,6 +46,9 @@ namespace ShapeUI
             this.saveButton = new System.Windows.Forms.Button();
             this.loadButton = new System.Windows.Forms.Button();
             this.quitButton = new System.Windows.Forms.Button();
+            this.shapeChoicesBox = new System.Windows.Forms.ListBox();
+            this.shapeAddSelectedButton = new System.Windows.Forms.Button();
+            this.shapeCollectionLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.shapeDisplayBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,35 +73,25 @@ namespace ShapeUI
             this.shapeDropdownBox.TabIndex = 1;
             this.shapeDropdownBox.SelectedIndexChanged += new System.EventHandler(this.shapeDropdownBox_SelectedIndexChanged);
             // 
-            // optionsLabel
+            // choicesLabel
             // 
-            this.optionsLabel.AutoSize = true;
-            this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionsLabel.Location = new System.Drawing.Point(61, 108);
-            this.optionsLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.optionsLabel.Name = "optionsLabel";
-            this.optionsLabel.Size = new System.Drawing.Size(92, 25);
-            this.optionsLabel.TabIndex = 2;
-            this.optionsLabel.Text = "Options:";
-            // 
-            // choicesDropdownBox
-            // 
-            this.choicesDropdownBox.FormattingEnabled = true;
-            this.choicesDropdownBox.Location = new System.Drawing.Point(165, 106);
-            this.choicesDropdownBox.Margin = new System.Windows.Forms.Padding(6);
-            this.choicesDropdownBox.Name = "choicesDropdownBox";
-            this.choicesDropdownBox.Size = new System.Drawing.Size(219, 32);
-            this.choicesDropdownBox.TabIndex = 3;
-            this.choicesDropdownBox.SelectedIndexChanged += new System.EventHandler(this.choicesDropdownBox_SelectedIndexChanged);
+            this.choicesLabel.AutoSize = true;
+            this.choicesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.choicesLabel.Location = new System.Drawing.Point(61, 108);
+            this.choicesLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.choicesLabel.Name = "choicesLabel";
+            this.choicesLabel.Size = new System.Drawing.Size(96, 25);
+            this.choicesLabel.TabIndex = 2;
+            this.choicesLabel.Text = "Choices:";
             // 
             // shapeListBox
             // 
             this.shapeListBox.FormattingEnabled = true;
             this.shapeListBox.ItemHeight = 24;
-            this.shapeListBox.Location = new System.Drawing.Point(66, 236);
+            this.shapeListBox.Location = new System.Drawing.Point(165, 263);
             this.shapeListBox.Margin = new System.Windows.Forms.Padding(6);
             this.shapeListBox.Name = "shapeListBox";
-            this.shapeListBox.Size = new System.Drawing.Size(417, 196);
+            this.shapeListBox.Size = new System.Drawing.Size(219, 172);
             this.shapeListBox.TabIndex = 4;
             // 
             // totalShapeAreaLabel
@@ -128,7 +120,7 @@ namespace ShapeUI
             // 
             // removeSelectedButton
             // 
-            this.removeSelectedButton.Location = new System.Drawing.Point(495, 301);
+            this.removeSelectedButton.Location = new System.Drawing.Point(396, 288);
             this.removeSelectedButton.Margin = new System.Windows.Forms.Padding(6);
             this.removeSelectedButton.Name = "removeSelectedButton";
             this.removeSelectedButton.Size = new System.Drawing.Size(138, 58);
@@ -235,12 +227,43 @@ namespace ShapeUI
             this.quitButton.TabIndex = 17;
             this.quitButton.Text = "Quit";
             this.quitButton.UseVisualStyleBackColor = true;
+            this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
+            // 
+            // shapeChoicesBox
+            // 
+            this.shapeChoicesBox.FormattingEnabled = true;
+            this.shapeChoicesBox.ItemHeight = 24;
+            this.shapeChoicesBox.Location = new System.Drawing.Point(166, 108);
+            this.shapeChoicesBox.Name = "shapeChoicesBox";
+            this.shapeChoicesBox.Size = new System.Drawing.Size(218, 100);
+            this.shapeChoicesBox.TabIndex = 18;
+            // 
+            // shapeAddSelectedButton
+            // 
+            this.shapeAddSelectedButton.Location = new System.Drawing.Point(390, 127);
+            this.shapeAddSelectedButton.Name = "shapeAddSelectedButton";
+            this.shapeAddSelectedButton.Size = new System.Drawing.Size(102, 59);
+            this.shapeAddSelectedButton.TabIndex = 19;
+            this.shapeAddSelectedButton.Text = "Add Selected";
+            this.shapeAddSelectedButton.UseVisualStyleBackColor = true;
+            // 
+            // shapeCollectionLabel
+            // 
+            this.shapeCollectionLabel.AutoSize = true;
+            this.shapeCollectionLabel.Location = new System.Drawing.Point(191, 233);
+            this.shapeCollectionLabel.Name = "shapeCollectionLabel";
+            this.shapeCollectionLabel.Size = new System.Drawing.Size(153, 24);
+            this.shapeCollectionLabel.TabIndex = 20;
+            this.shapeCollectionLabel.Text = "Shape Collection";
             // 
             // ShapeSelectorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1263, 623);
+            this.Controls.Add(this.shapeCollectionLabel);
+            this.Controls.Add(this.shapeAddSelectedButton);
+            this.Controls.Add(this.shapeChoicesBox);
             this.Controls.Add(this.quitButton);
             this.Controls.Add(this.loadButton);
             this.Controls.Add(this.saveButton);
@@ -255,14 +278,14 @@ namespace ShapeUI
             this.Controls.Add(this.totalShapePerimeterLabel);
             this.Controls.Add(this.totalShapeAreaLabel);
             this.Controls.Add(this.shapeListBox);
-            this.Controls.Add(this.choicesDropdownBox);
-            this.Controls.Add(this.optionsLabel);
+            this.Controls.Add(this.choicesLabel);
             this.Controls.Add(this.shapeDropdownBox);
             this.Controls.Add(this.shapeLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "ShapeSelectorForm";
             this.Text = "Shape Selector";
+            this.Load += new System.EventHandler(this.ShapeSelectorForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.shapeDisplayBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -273,8 +296,7 @@ namespace ShapeUI
 
         private System.Windows.Forms.Label shapeLabel;
         private System.Windows.Forms.ComboBox shapeDropdownBox;
-        private System.Windows.Forms.Label optionsLabel;
-        private System.Windows.Forms.ComboBox choicesDropdownBox;
+        private System.Windows.Forms.Label choicesLabel;
         private System.Windows.Forms.ListBox shapeListBox;
         private System.Windows.Forms.Label totalShapeAreaLabel;
         private System.Windows.Forms.Label totalShapePerimeterLabel;
@@ -289,5 +311,8 @@ namespace ShapeUI
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.Button loadButton;
         private System.Windows.Forms.Button quitButton;
+        private System.Windows.Forms.ListBox shapeChoicesBox;
+        private System.Windows.Forms.Button shapeAddSelectedButton;
+        private System.Windows.Forms.Label shapeCollectionLabel;
     }
 }
