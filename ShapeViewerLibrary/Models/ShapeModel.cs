@@ -19,8 +19,6 @@ namespace ShapeViewerLibrary
         public List<Shape> Shapes { get; set; } = new List<Shape>();
         // Might not need the pub string
         public string ShapeName { get; set; }
-
-        public string 
     }
 
     public class Shape

@@ -12,3 +12,6 @@ C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.cspr
 C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CoreCompileInputs.cache
 C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.dll
 C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.pdb
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Github Repo\Shape_Viewer\ShapeViewerLibrary\obj\Debug\ShapeViewerLibrary.csproj.CopyComplete
