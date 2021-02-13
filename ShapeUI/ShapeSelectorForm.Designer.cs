@@ -237,6 +237,7 @@ namespace ShapeUI
             this.shapeChoicesBox.Name = "shapeChoicesBox";
             this.shapeChoicesBox.Size = new System.Drawing.Size(218, 100);
             this.shapeChoicesBox.TabIndex = 18;
+            this.shapeChoicesBox.SelectedIndexChanged += new System.EventHandler(this.shapeChoicesBox_SelectedIndexChanged);
             // 
             // shapeAddSelectedButton
             // 

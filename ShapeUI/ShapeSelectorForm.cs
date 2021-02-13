@@ -48,9 +48,12 @@ namespace ShapeUI
 
         }
 
-        private void choicesDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void shapeChoicesBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (shapeDropdownBox()) = "Square";
+            {
 
+            }
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -79,5 +82,6 @@ namespace ShapeUI
         {
             this.Dispose();
         }
+
     }
 }
