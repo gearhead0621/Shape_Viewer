@@ -34,3 +34,5 @@ C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CoreCompileInputs.c
 C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CopyComplete
 C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.exe
 C:\Github Repo\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.pdb
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.dll
+C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.xml

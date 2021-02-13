@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeViewerLibrary", "Shape
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeUI", "ShapeUI\ShapeUI.csproj", "{C24F9EFF-9293-422C-B9FE-A7C4111D2A1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{020D41FE-F79C-4F36-B427-B42775D3B880}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\nick.szkodyn\Google Drive\Homelab\Learning\C#\Machine Vision Development Engineer Coding Exercise\ShapeList_2_12_21.xml = ..\..\Users\nick.szkodyn\Google Drive\Homelab\Learning\C#\Machine Vision Development Engineer Coding Exercise\ShapeList_2_12_21.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
