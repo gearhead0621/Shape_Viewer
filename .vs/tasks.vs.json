@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-ShapeList_2_12_21",
+      "appliesTo": "Resources/ShapeList_2_12_21.xml",
+      "type": "launch"
+    }
+  ]
+}

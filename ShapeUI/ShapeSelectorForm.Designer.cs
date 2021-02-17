@@ -49,6 +49,8 @@ namespace ShapeUI
             this.shapeChoicesBox = new System.Windows.Forms.ListBox();
             this.shapeAddSelectedButton = new System.Windows.Forms.Button();
             this.shapeCollectionLabel = new System.Windows.Forms.Label();
+            this.shapeColorLabel = new System.Windows.Forms.Label();
+            this.shapeColorComboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.shapeDisplayBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -257,11 +259,30 @@ namespace ShapeUI
             this.shapeCollectionLabel.TabIndex = 20;
             this.shapeCollectionLabel.Text = "Shape Collection";
             // 
+            // shapeColorLabel
+            // 
+            this.shapeColorLabel.AutoSize = true;
+            this.shapeColorLabel.Location = new System.Drawing.Point(715, 411);
+            this.shapeColorLabel.Name = "shapeColorLabel";
+            this.shapeColorLabel.Size = new System.Drawing.Size(120, 24);
+            this.shapeColorLabel.TabIndex = 21;
+            this.shapeColorLabel.Text = "Shape Color:";
+            // 
+            // shapeColorComboBox
+            // 
+            this.shapeColorComboBox.FormattingEnabled = true;
+            this.shapeColorComboBox.Location = new System.Drawing.Point(841, 408);
+            this.shapeColorComboBox.Name = "shapeColorComboBox";
+            this.shapeColorComboBox.Size = new System.Drawing.Size(184, 32);
+            this.shapeColorComboBox.TabIndex = 22;
+            // 
             // ShapeSelectorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1263, 623);
+            this.Controls.Add(this.shapeColorComboBox);
+            this.Controls.Add(this.shapeColorLabel);
             this.Controls.Add(this.shapeCollectionLabel);
             this.Controls.Add(this.shapeAddSelectedButton);
             this.Controls.Add(this.shapeChoicesBox);
@@ -315,5 +336,7 @@ namespace ShapeUI
         private System.Windows.Forms.ListBox shapeChoicesBox;
         private System.Windows.Forms.Button shapeAddSelectedButton;
         private System.Windows.Forms.Label shapeCollectionLabel;
+        private System.Windows.Forms.Label shapeColorLabel;
+        private System.Windows.Forms.ComboBox shapeColorComboBox;
     }
 }

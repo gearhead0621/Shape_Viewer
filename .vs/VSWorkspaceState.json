@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Resources",
+    "\\ShapeUI",
+    "\\ShapeViewerLibrary",
+    "\\ShapeViewerLibrary\\Models"
   ],
-  "SelectedNode": "\\ShapeViewer.sln",
+  "SelectedNode": "\\Resources\\shapelist_v2.xml",
   "PreviewInSolutionExplorer": false
 }

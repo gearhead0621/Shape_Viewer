@@ -16,16 +16,26 @@ namespace ShapeUI
         public ShapeSelectorForm()
         {
             InitializeComponent();
-        }
-
-        private void ShapeSelectorForm_Load(object sender, EventArgs e)
-        {
             shapeDropdownBox.Items.Add("Square");
             shapeDropdownBox.Items.Add("Ellipse");
             shapeDropdownBox.Items.Add("Circle");
             shapeDropdownBox.Items.Add("Equilateral Triangle");
             shapeDropdownBox.Items.Add("Polygon");
+        }
 
+        private void ShapeSelectorForm_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void shapeChoicesBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //if (shapeDropdownBox()) = "Square";
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -43,18 +53,7 @@ namespace ShapeUI
 
         }
 
-        private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void shapeChoicesBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (shapeDropdownBox()) = "Square";
-            {
-
-            }
-        }
+        
 
         private void saveButton_Click(object sender, EventArgs e)
         {
