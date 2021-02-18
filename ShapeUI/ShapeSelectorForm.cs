@@ -59,7 +59,7 @@ namespace ShapeUI
         {
             if (ValidateForm())
             {
-                ShapeModel model = new ShapeModel();
+                //ShapeModel model = new ShapeModel();
 
                 //GlobalConfig.Connection.CreateShape(model);
             }
