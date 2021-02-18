@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeViewerLibrary", "ShapeViewerLibrary\ShapeViewerLibrary.csproj", "{3DF983C8-9DF1-45E9-9EE9-D3CA36B54A5C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeUI", "ShapeUI\ShapeUI.csproj", "{C24F9EFF-9293-422C-B9FE-A7C4111D2A1C}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DF983C8-9DF1-45E9-9EE9-D3CA36B54A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DF983C8-9DF1-45E9-9EE9-D3CA36B54A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DF983C8-9DF1-45E9-9EE9-D3CA36B54A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DF983C8-9DF1-45E9-9EE9-D3CA36B54A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C24F9EFF-9293-422C-B9FE-A7C4111D2A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C24F9EFF-9293-422C-B9FE-A7C4111D2A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24F9EFF-9293-422C-B9FE-A7C4111D2A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -21,9 +21,6 @@ namespace ShapeUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Initialize the database connections
-            ShapeViewerLibrary.GlobalConfig.InitializeConnections(false, true);
-
             //var shapes = ProcessFile("ShapeList.csv");
 
             Application.Run(new ShapeSelectorForm());
