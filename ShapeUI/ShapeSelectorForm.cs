@@ -29,12 +29,35 @@ namespace ShapeUI
 
         private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            if ((string)shapeDropdownBox.SelectedItem == ("Square"))
+            {
+                MessageBox.Show("This is a square.");
+            }
+
+            if ((string) shapeDropdownBox.SelectedItem == ("Ellipse"))
+            {
+                MessageBox.Show("This is an ellipse.");
+            }
+
+            if ((string)shapeDropdownBox.SelectedItem == ("Circle"))
+            {
+                MessageBox.Show("This is a circle.");
+            }
+
+            if ((string)shapeDropdownBox.SelectedItem == ("Equilateral Triangle"))
+            {
+                MessageBox.Show("This is an equilateral triangle.");
+            }
+
+            if ((string)shapeDropdownBox.SelectedItem == ("Polygon"))
+            {
+                MessageBox.Show("This is a polygon.");
+            }
         }
 
         private void shapeChoicesBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (shapeDropdownBox()) = "Square";
+
         }
 
         private void label2_Click(object sender, EventArgs e)
