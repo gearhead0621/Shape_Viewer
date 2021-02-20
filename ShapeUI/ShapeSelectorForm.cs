@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.FileIO;
 
 namespace ShapeUI
 {
@@ -29,9 +32,22 @@ namespace ShapeUI
 
         private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            shapeChoicesBox.ClearSelected();
+            
             if ((string)shapeDropdownBox.SelectedItem == ("Square"))
             {
-                MessageBox.Show("This is a square.");
+                using (TextFieldParser parser = new TextFieldParser(@"C:\Github Repo\Shape_Viewer\ShapeUI\ShapeList.csv"))
+                {
+                    parser.SetDelimiters(",");
+                    while (!parser.EndOfData)
+                    {
+                        string[] fields = parser.ReadFields();
+                        foreach (string field in fields)
+                        {
+                            shapeChoicesBox.Show();
+                        }
+                    }
+                }
             }
 
             if ((string) shapeDropdownBox.SelectedItem == ("Ellipse"))
