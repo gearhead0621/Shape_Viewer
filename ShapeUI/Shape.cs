@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using System.Drawing;
 
 namespace ShapeUI
 {
@@ -15,10 +16,10 @@ namespace ShapeUI
         public string Type { get; set; }
         public double Value { get; set; }
 
-        public Point()
+        public Point(string type, double value)
         {
-            this.Type = $"t";
-                .Value = $"v";
+            this.Type = type;
+            this.Value = value;
         }
     }
     
@@ -26,33 +27,61 @@ namespace ShapeUI
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string[] Points { get; set; } // Not sure if this is correct
+        public Point Points { get; set; } // Not sure if this is correct struct to use
         
         // TODO - Add color property
 
+
         public Shape()
         {
-            this.Id = { }
-                .Name = "";
-                .Points = null;
+
+        }
+        
+        public Shape(int id, string name, Point points)
+        {
+            this.Id = id;
+            this.Name = name;
+            this.Points = points;
         }
 
-        Shape(int id, string name, string[] points)
+        public virtual double Area()
         {
-            // Add something here...
+            return x * y;
         }
 
         // virtual Draw() method
-        // virtual Area() method
         // virtual Perimeter() method
         // GetAvailableShapes()
     }
 
     public class Polygon : Shape
     {
-        public void Draw
+        public void DrawPolygonPoint(PaintEventArgs e)
         {
-            // Implement Draw()
+            // Create pen
+            Pen blackPen = new Pen(Color.Black, 3);
+
+            // Create points that define polygon
+            Point point1 = new Point(50, 50);
+            Point point2 = new Point(100, 25);
+            Point point3 = new Point(200, 5);
+            Point point4 = new Point(250, 50);
+            Point point5 = new Point(300, 100);
+            Point point6 = new Point(350, 200);
+            Point point7 = new Point(250, 250);
+            Point[] curvePoints =
+            {
+                point1,
+                point2,
+                point3,
+                point4,
+                point5,
+                point6,
+                point7
+            };
+
+            // Draw polygon to screen
+            e.Graphics.DrawPolygon(blackPen, curvePoints);
         }
 
         public float GetArea()
@@ -70,9 +99,9 @@ namespace ShapeUI
 
     public class Ellipse : Shape
     {
-        public void Draw
+        public void DrawEllipse(PaintEventArgs e)
         {
-            // Implement Draw()
+            e.Graphics.DrawEllipse();
         }
 
         public float GetArea()
@@ -94,29 +123,7 @@ namespace ShapeUI
 
         ShapeFactory()
         {
-
-            // Fetch the raw data
-            public string Path = "PSScriptRoot" + "\\ShapeList.csv";
-            public string RawData = import - csv @"C:\Github Repo\Shape_Viewer\ShapeUI\ShapeList.csv";
-
-            // RawData format: ID | Name | Points[X]
-            // Points[X] = (pointXType,pointXValue)
-
-            //public string tmpShapes = foreach (var object in public string RawData1 => RawData)
-            //{
-                //public string tmp = [PSCustomObject]::new()
-                //string properties = object | Get-Member -MemberTypes Properties | Select -ExpandProperty Name // Pulls just the header names
-                //foreach (var property in string Properties)
-                //{
-                    //if (string object.property.length != 0)
-                        //{
-                            //tmp | Add-Member -NotePropertyName string property -NotePropertyValue string object.property
-                        //}
-                //}
-
-
-            //}
-
+            
         }
 
     }
