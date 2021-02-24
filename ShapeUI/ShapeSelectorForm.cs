@@ -30,13 +30,13 @@ namespace ShapeUI
            
         }
 
-        private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void shapeDropdownBox_SelectedIndexChanged(object sender, EventArgs e, string path)
         {
             shapeChoicesBox.ClearSelected();
             
             if ((string)shapeDropdownBox.SelectedItem == ("Square"))
             {
-                using (TextFieldParser parser = new TextFieldParser(@"C:\Github Repo\Shape_Viewer\ShapeUI\ShapeList.csv"))
+                /*using (TextFieldParser parser = new TextFieldParser(path))
                 {
                     parser.SetDelimiters(",");
                     while (!parser.EndOfData)
@@ -47,7 +47,7 @@ namespace ShapeUI
                             shapeChoicesBox.Show();
                         }
                     }
-                }
+                }*/
             }
 
             if ((string) shapeDropdownBox.SelectedItem == ("Ellipse"))

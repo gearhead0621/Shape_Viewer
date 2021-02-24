@@ -54,7 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Shape.cs" />
+    <Compile Include="ShapeModel\Circle.cs" />
+    <Compile Include="ShapeModel\Triangle.cs" />
+    <Compile Include="ShapeModel\Square.cs" />
+    <Compile Include="ShapeModel\Ellipse.cs" />
+    <Compile Include="ShapeModel\Point.cs" />
+    <Compile Include="ShapeModel\Polygon.cs" />
+    <Compile Include="ShapeModel\Shape.cs" />
+    <Compile Include="ShapeModel\ShapeFactory.cs" />
     <Compile Include="ShapeSelectorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,7 +82,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="ShapeList.csv" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -86,9 +92,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Content Include="ShapeList.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\csv-master\src\NReco.Csv\NReco.Csv.csproj">
+      <Project>{96A0F2A4-D4F0-45B0-BB5A-07B63FEE483B}</Project>
+      <Name>NReco.Csv</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

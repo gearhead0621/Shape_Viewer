@@ -18,8 +18,6 @@ C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.exe
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.pdb
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.ShapeSelectorForm.resources
-C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.dll
-C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\ShapeViewerLibrary.pdb
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\obj\Debug\ShapeUI.csproj.CopyComplete
 C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe.config
 C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\ShapeUI.exe
@@ -36,3 +34,6 @@ C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.dll
 C:\Github Repo\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\NReco.Csv.dll
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\NReco.Csv.pdb
+C:\Users\Nszko\OneDrive\Documents\GitHub\Shape_Viewer\ShapeUI\bin\Debug\NReco.Csv.xml

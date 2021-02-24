@@ -6,7 +6,7 @@ using System.Xml.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static ShapeUI.Shape;
+using static ShapeUI.ShapeModel.Shape;
 
 namespace ShapeUI
 {
@@ -18,16 +18,16 @@ namespace ShapeUI
         [STAThread]
         static void Main(string[] args)
         {
-            string filePath = @"C:\Github Repo\Shape_Viewer\ShapeUI\ShapeList.csv";
+            string path = "ShapeList.csv";
 
-            List<string> lines = File.ReadAllLines(filePath).ToList();
+            /*List<string> lines = File.ReadAllLines(path).ToList();
 
             foreach (string line in lines)
             {
                 Console.WriteLine(line);
             }
 
-            Console.ReadLine();
+            Console.ReadLine();*/
 
             //Console.WriteLine(string.Join("",readRecord("Circle","ShapeList.csv",2)));
             //Console.ReadLine();
