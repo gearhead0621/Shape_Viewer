@@ -1,7 +1,7 @@
 ﻿
 namespace ShapeUI
 {
-    partial class ShapeSelectorForm
+    partial class ShapeSelectorForm 
     {
         /// <summary>
         /// Required designer variable.

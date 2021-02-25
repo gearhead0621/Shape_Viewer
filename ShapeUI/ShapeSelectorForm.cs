@@ -35,19 +35,9 @@ namespace ShapeUI
             shapeChoicesBox.ClearSelected();
             
             if ((string)shapeDropdownBox.SelectedItem == ("Square"))
-            {
-                /*using (TextFieldParser parser = new TextFieldParser(path))
-                {
-                    parser.SetDelimiters(",");
-                    while (!parser.EndOfData)
-                    {
-                        string[] fields = parser.ReadFields();
-                        foreach (string field in fields)
-                        {
-                            shapeChoicesBox.Show();
-                        }
-                    }
-                }*/
+            { 
+                var shapeFactory = new ShapeFactory(path);
+                // Add to list box: shapeFactory.Sqaures
             }
 
             if ((string) shapeDropdownBox.SelectedItem == ("Ellipse"))

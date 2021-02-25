@@ -6,7 +6,7 @@ using System.Xml.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static ShapeUI.ShapeModel.Shape;
+using ShapeUI;
 
 namespace ShapeUI
 {
@@ -31,10 +31,20 @@ namespace ShapeUI
 
             //Console.WriteLine(string.Join("",readRecord("Circle","ShapeList.csv",2)));
             //Console.ReadLine();
+
+    /*        var ShapeFactory = new ShapeFactory(path);
+            var shapes = ShapeFactory.GetShapes();
+
+            foreach (var Shape in shapes)
+            {
+                Shape.GetAvailableShapes();
+            }*/
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShapeSelectorForm());
+
+            Form test = new ShapeSelectorForm();
+            Application.Run(test);
         }
         /*public static string[] readRecord(string searchTerm, string filepath, int positionOfSearchTerm)
         {

@@ -1,4 +1,4 @@
-﻿namespace ShapeUI.ShapeModel
+﻿namespace ShapeUI
 {
     public class Triangle : Shape
     {

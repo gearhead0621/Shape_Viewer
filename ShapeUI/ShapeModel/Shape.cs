@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ShapeUI.ShapeModel
+namespace ShapeUI
 {
     public abstract class Shape
     {
