@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ShapeModel\Circle.cs" />
+    <Compile Include="ShapeModel\IShape.cs" />
     <Compile Include="ShapeModel\Triangle.cs" />
     <Compile Include="ShapeModel\Square.cs" />
     <Compile Include="ShapeModel\Ellipse.cs" />
