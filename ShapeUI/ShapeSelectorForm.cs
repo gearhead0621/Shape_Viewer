@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -10,11 +11,51 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.FileIO;
+using ShapeUI.ShapeModel;
 
 namespace ShapeUI
 {
-    public partial class ShapeSelectorForm : Form
-    {
+    public partial class ShapeSelectorForm : Form {
+
+
+        private List<IShape> _shapeList;
+
+        private void ReadCsvFile(string filePath) {
+
+            string[] lines = System.IO.File.ReadAllLines(filePath);
+            foreach (var line in lines) {
+
+                var lineSplitIntoPieces     = line.Split(',');
+                var shapeName = lineSplitIntoPieces[0];
+                switch(shapeName)
+                {
+                    case "Square":
+                        var centerX     = ExtractValueFromCsvLine("CenterX",     lineSplitIntoPieces);
+                        var centerY     = ExtractValueFromCsvLine("CenterY",     lineSplitIntoPieces);
+                        var orientation = ExtractValueFromCsvLine("Orientation", lineSplitIntoPieces);
+                        var sideLength = ExtractValueFromCsvLine("SideLength", lineSplitIntoPieces);
+                        _shapeList.Add(new Square(sideLength, orientation, centerX, centerY));
+                        break;
+                    case "Circle":
+                        break;
+                }
+
+            }
+
+
+
+        }
+
+        private double ExtractValueFromCsvLine(string valueName, string[] lineSplit) {
+            for (int i = 0; i < lineSplit.Length-2; i++) {
+                if (lineSplit[i] == valueName) {
+                    return double.Parse( lineSplit[i + 1]);
+                }
+            }
+            return -1;
+        }
+
+
         public ShapeSelectorForm()
         {
             InitializeComponent();

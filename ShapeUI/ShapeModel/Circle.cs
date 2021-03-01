@@ -1,36 +1,21 @@
-﻿namespace ShapeUI
+﻿using System.Runtime.Remoting.Messaging;
+using ShapeUI.ShapeModel;
+
+namespace ShapeUI
 {
-    public class Circle : Shape
-    {
-        public Circle(int id, string name, Point points) : base(id, name, points)
-        {
+    public class Circle : IShape {
 
-        }
-
-        public override Shape CreateInstance(int id, string name, Point points)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override double Area()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override void Draw()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override Shape GetAvailableShapes()
-        {
-            throw new System.NotImplementedException();
-        }
+        private double _centerX;
+        private double _centerY;
+        private double _radius;
 
 
-        public override double Perimeter()
-        {
-            throw new System.NotImplementedException();
+        public double Perimeter => 2 * System.Math.PI * _radius;
+
+
+        public double CalculateArea() {
+            return System.Math.PI * _radius * _radius;
+
         }
     }
 }

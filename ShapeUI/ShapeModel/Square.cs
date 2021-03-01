@@ -1,34 +1,26 @@
-﻿namespace ShapeUI
+﻿using ShapeUI.ShapeModel;
+
+namespace ShapeUI
 {
-    public class Square : Shape
-    {
-        public Square(int id, string name, Point points) : base(id, name, points)
-        {
+    public class Square : IShape {
 
-        }
 
-        public override Shape CreateInstance(int id, string name, Point points)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override double Area()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override void Draw()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override Shape GetAvailableShapes()
-        {
-            throw new System.NotImplementedException();
-        }
+        private double _sideLength;
+        private double _orientation;
+        private double _centerX;
+        private double _centerY;
         
-        public override double Perimeter()
-        {
+
+        public Square(double sideLength, double orientation, double centerX, double centerY) {
+            _sideLength  = sideLength;
+            _orientation = orientation;
+            _centerX     = centerX;
+            _centerY     = centerY;
+        }
+
+
+        public double Perimeter       { get; set; }
+        public double CalculateArea() {
             throw new System.NotImplementedException();
         }
     }
